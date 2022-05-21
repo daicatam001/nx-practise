@@ -14,7 +14,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-practise/front/feature/sidebar": [
+        "libs/front/feature/sidebar/src/index.js"
+      ],
+      "@nx-practise/front/footer/feature": [
+        "libs/front/footer/feature/src/index.js"
+      ],
+      "@nx-practise/front/header/feature": [
+        "libs/front/header/feature/src/index.js"
+      ],
+      "@nx-practise/front/layout/feature": [
+        "libs/front/layout/feature/src/index.js"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,15 @@
+{
+  "$schema": "..\\..\\..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "libs/front/feature/sidebar/src",
+  "projectType": "library",
+  "tags": ["scope:front", "type:feature"],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/front/feature/sidebar/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

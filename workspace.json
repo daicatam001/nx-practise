@@ -2,6 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "front": "apps/front"
+    "front": "apps/front",
+    "front-feature-sidebar": "libs/front/feature/sidebar",
+    "front-footer-feature": "libs/front/footer/feature",
+    "front-header-feature": "libs/front/header/feature",
+    "front-layout-feature": "libs/front/layout/feature"
   }
 }
